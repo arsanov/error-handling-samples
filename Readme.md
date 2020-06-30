@@ -138,7 +138,7 @@ http://www.castleproject.org/projects/dynamicproxy/
 
 >For example, a class could be proxied to add logging or security checking without making the code aware this functionality has been added.
 
-In my project I use either manually written decorators, or, in my home projects - can be also runtime type generator using TypeBuilder, when it is not difficult to implement. Mostly because of studying purposes.
+In my project I use either manually written decorators, or, in my home projects - can be also runtime type generator using TypeBuilder, when it is not difficult to implement. Mostly because of studying purposes. You can see it [here](ConsoleApp8/ViewModelTypeCreator.cs)
 
 There is an example of using TypeBuilder in ViewModelTypeCreator.cs, but I would not recommend using it anywhere because it is more difficult to implement and easier to miss something.
 But it works fine in my home projects.
